@@ -326,7 +326,8 @@ section , .skills{
 
 }
 .skill-det{
-    height: 240px;
+    height: 300px;
+    line-height: 1.8;
     /*background-color: red;*/
     border:1px solid black;
     border-radius: 10px;
@@ -409,4 +410,32 @@ footer p{
 }
 .modal.fade .modal-dialog{
     padding-right: 0px !important;
+}
+@media only screen and (max-width: 992px){
+    li.nav-item.bb{
+        display: none ;
+        /*visibility: hidden;*/
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .banner-port{
+        text-align: center;
+        padding-top: 300px;
+    }
+
+    .banner-port img{
+        /*height: 20% !important;*/
+    }
+    .brief{
+        /*background-color: red;*/
+        text-align: center;
+    }
+    .waveWrapper.waveAnimation{
+        height: 1160px !important;
+    }
+    .skills{
+        
+        padding-top: 520px !important;
+    }
 }
