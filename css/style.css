@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 @font-face {
     src:url(../KaushanScript-Regular.ttf);
     font-family: kscript;
@@ -400,4 +403,10 @@ footer{
 }
 footer p{
     margin-bottom: 0;
+}
+.modal-content{
+    margin-top: 120px;
+}
+.modal.fade .modal-dialog{
+    padding-right: 0px !important;
 }
