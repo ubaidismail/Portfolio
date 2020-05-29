@@ -448,3 +448,23 @@ footer p{
     padding-top: 635px !important;   
     }
 }
+/*.flipInY {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  
+ 
+}
+.flipInY:hover{
+    animation: mymove 5s;
+}*/
+.layout{
+}
+.layout:hover{
+    overflow: scroll;
+}
+
+/*@keyframes mymove {
+  from {top: 0px;}
+  to {top: 500px;}
+}*/
