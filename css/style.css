@@ -372,23 +372,27 @@ hr{
     width: 100% !important;
     height: 1600px;
 }
-.overlay{
+/**/
+.overlay span{
     position: absolute;
     color: white;
     opacity: 0;
-    bottom: 0;
     top: 0;
     left:  0;
     right: 0;
+    bottom: 0;
     text-align: center;
     transition: all 1s linear;
     font-family: kscript;
     font-size: 30px;
 }
-.overlay:hover{
+.overlay:hover span{
+    height: 564% !important;
+    background-color: rgba(49, 43, 43, 0.4);
+    color: #027af1;
     opacity: 1;
     padding-top: 25%;
-    background-color: rgba( 0 , 0 , 0 ,.5);
+    /*background-color: rgba( 0 , 0 , 0 ,.5);*/
 }
 span .mt-5{
     margin-top: 30px;
@@ -467,4 +471,11 @@ footer p{
 /*@keyframes mymove {
   from {top: 0px;}
   to {top: 500px;}
+}*//*
+.layout.overlay span {
+    position: fixed;
+    top: 321px;
+    left: auto;
+    right: auto;
+    background: red;
 }*/
