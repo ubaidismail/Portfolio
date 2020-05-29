@@ -432,10 +432,19 @@ footer p{
         text-align: center;
     }
     .waveWrapper.waveAnimation{
-        height: 1160px !important;
+        height: 1234px !important;
     }
     .skills{
         
         padding-top: 520px !important;
+    }
+    li.nav-item.line{
+        display: none ;
+        /*visibility: hidden;*/
+    }
+}
+@media only screen and (max-width: 768px){
+ .skills {
+    padding-top: 635px !important;   
     }
 }
