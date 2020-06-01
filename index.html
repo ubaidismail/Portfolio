@@ -11,9 +11,9 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="animated bounce infinite">
-	
-<div class="fixed-top" id="home">
+  <body">
+	<header>
+		<div class="fixed-top" id="home">
 	<div class="row mx-background-top-linear ">
 		<div class="col-md-6">
 
@@ -75,8 +75,11 @@
 		
 		</div>
 		<div class="col-lg-6 text-center">
+			<div class="cen">
+				
+			
 			<div class="row">
-				<div class="col-md-6 col-8 offset-4">
+				<div class="col-8 offset-4">
 					
 				
           <!-- social icon-->
@@ -112,10 +115,14 @@
             </ul>
 		
 				</div>
+			<!-- </div> -->
+		</div>
+	
 			</div>
 		</div>
-	</div>
 </div>
+</div>
+	</header>
 	<!-- header -->
 	<div class="banner">
 	<div class="container">
@@ -342,18 +349,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
-      var $isAnimatedSecond = $('.second .is-animated'),
-    $isAnimatedSecondSingle = $('.second .is-animated__single');
- 
-/* this code is part of the onLeave callback */   
-if( index == 1 && nextIndex == 2 ) {
-    $isAnimatedSecond.addClass('animated fadeInUpBig'); 
-    $isAnimatedSecond.eq(0).css('animation-delay', '.3s');
-    $isAnimatedSecond.eq(1).css('animation-delay', '.6s');
-    $isAnimatedSecond.eq(2).css('animation-delay', '.9s');
-    $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
-}
-
+    	$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $("header").addClass("activee");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $("header").removeClass("activee");
+        }
+    });
+});
 
       $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
