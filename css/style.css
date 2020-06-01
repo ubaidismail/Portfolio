@@ -126,7 +126,7 @@ ul.social-network li {
 
 ul.social-network {
   list-style: none;
-  margin: 5px 0 10px -25px;
+  margin: 5px 0 10px -45px;
   float: right;
 }
 
@@ -373,7 +373,7 @@ footer p{
    
     li.nav-item.line{
         /*display: none ;*/
-        /*visibility: hidden;*/
+        visibility: hidden;
     }
 }
 
@@ -385,6 +385,6 @@ footer p{
 
 .cen{
     padding-right:0;
-/*     margin-right: 100px; */
+    margin-right: 100px;
 }   
 }
