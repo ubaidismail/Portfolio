@@ -1,4 +1,7 @@
-
+.activee{
+    background-color: red;
+    z-index: 111111111;
+}
 body{
     /*background-color: #f3f3f3 !important;*/
     background: url(../img/copywall.jpg) fixed;
@@ -292,7 +295,7 @@ hr{
     font-weight: bold;
 }
 .developer strong{
-    color: #8080808c;
+    color: #304d6b;
     font-family: arial;
 }
 .layout{
@@ -357,7 +360,7 @@ footer p{
 @media only screen and (max-width: 768px){
     .banner-port{
         text-align: center;
-        padding-top: 300px;
+        padding-top: 30px;
     }
 
     .banner-port img{
@@ -367,45 +370,21 @@ footer p{
         /*background-color: red;*/
         text-align: center;
     }
-    .waveWrapper.waveAnimation{
-        height: 1234px !important;
-    }
-    .skills{
-        
-        padding-top: 520px !important;
-    }
+   
     li.nav-item.line{
-        display: none ;
+        /*display: none ;*/
         /*visibility: hidden;*/
     }
 }
-@media only screen and (max-width: 768px){
- .skills {
-    padding-top: 635px !important;   
-    }
-}
-/*.flipInY {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  
- 
-}
-.flipInY:hover{
-    animation: mymove 5s;
-}*/
-.layout:hover{
-    /*overflow: visible;*/
-}
 
-/*@keyframes mymove {
-  from {top: 0px;}
-  to {top: 500px;}
-}*//*
-.layout.overlay span {
-    position: fixed;
-    top: 321px;
-    left: auto;
-    right: auto;
-    background: red;
-}*/
+.cen{
+    padding-right:0;
+    /*margin-left: 135px;*/
+}
+@media only screen and (max-width: 768px){
+
+.cen{
+    padding-right:0;
+    margin-right: 100px;
+}   
+}
