@@ -126,7 +126,7 @@ ul.social-network li {
 
 ul.social-network {
   list-style: none;
-  margin: 5px 0 10px -45px;
+  /*margin: 5px 0 10px -45px;*/
   float: right;
 }
 
@@ -363,6 +363,7 @@ footer p{
         padding-top: 30px;
     }
 
+
     .banner-port img{
         /*height: 20% !important;*/
     }
@@ -381,10 +382,31 @@ footer p{
     padding-right:0;
     /*margin-left: 135px;*/
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 992px){
+   .col-sm-10{
+    margin-left:31.666666%;
+}
 
 .cen{
     padding-right:0;
-    margin-right: 100px;
+    /*margin-left: 38px;*/
 }   
+.cen ul.social-network a i{
+    display:block;
+    /*background-color: red;*/
+    text-align: center !important;
+}
+
+
+}
+
+@media only screen and (max-width: 600px){
+   .col-sm-10{
+    margin-left:15.666666%;
+}
+}
+@media only screen and (max-width: 400px){
+.col-sm-10 {
+    margin-left: 9.666666%;
+}
 }
