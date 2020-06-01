@@ -1,3 +1,8 @@
+
+body{
+    /*background-color: #f3f3f3 !important;*/
+    background: url(../img/copywall.jpg) fixed;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -146,14 +151,7 @@ a {
 li {
     list-style-type: none;
 }
-.bg-image-full {
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+
 .bg-dark {
     background-color: #222!important;
 }
@@ -161,7 +159,7 @@ li {
 .mx-background-top-linear {
     /*background: -webkit-linear-gradient(45deg, #54d400 48%, #1b1e21 48%);*/
     /*background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);*/
-    background:#027af1;
+    background:black;
 }
 
 .bb ,.line{
@@ -178,83 +176,14 @@ li {
 }
 
 /*banner*/
-@keyframes move_wave {
-    0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
-    }
-    50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
-    }
-    100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
-    }
-}
 .banner{
-    /*position: relative;*/
-    
 }
-.waveWrapper {
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-}
-.waveWrapperInner {
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    height: 100%;
-    bottom: -1px;
-    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
-}
-.bgTop {
-    z-index: 15;
-    opacity: 0.5;
-}
-.bgMiddle {
-    z-index: 10;
-    opacity: 0.75;
-}
-.bgBottom {
-    z-index: 5;
-}
-.wave {
-	background-color: #41a4f5;
-    position: absolute;
-    left: 0;
-    width: 200%;
-    height: 100%;
-    background-repeat: repeat no-repeat;
-    background-position: 0 bottom;
-    transform-origin: center bottom;
-}
-.waveTop {
-    background-size: 50% 100px;
-}
-.waveAnimation .waveTop {
-  animation: move-wave 3s;
-   -webkit-animation: move-wave 3s;
-   -webkit-animation-delay: 1s;
-   animation-delay: 1s;
-}
-.waveMiddle {
-    background-size: 50% 120px;
-}
-.waveAnimation .waveMiddle {
-    animation: move_wave 10s linear infinite;
-}
-.waveBottom {
-    background-size: 50% 100px;
-}
-.waveAnimation .waveBottom {
-    animation: move_wave 15s linear infinite;
-}
+
 .banner-det{
-	position: absolute;
-	top: 100px;
+    background-color: rgba(0, 0, 0, 0.88);
+    padding:20px;
+	/*position: absolute;*/
+	margin-top: 50px;
 	z-index: 111;
 }
 .brief span{
@@ -286,10 +215,14 @@ li {
     /*position: relative !important;*/
     /*position: inherit;*/
 }
-section , .skills{
+section{
+    background-color: rgba(222, 222, 222, .77);
+    color: black;
     z-index: 100000;
-    padding-top: 300px;
-   
+    /*color: bold;*/
+    font-weight: bold;
+    padding:40px;
+    /*padding-top: 300px;*/
     text-align: center;
     font-size: 20px;
 }
@@ -384,7 +317,7 @@ hr{
     text-align: center;
     transition: all 1s linear;
     font-family: kscript;
-    font-size: 30px;
+    font-size:50px;
 }
 .overlay:hover span{
     height: 564% !important;
@@ -403,7 +336,6 @@ span .mt-5{
 footer{
     background-color: #ececec;
     text-align: center;
-    margin-top: 10px;
     padding:10px 0;
 }
 footer p{
@@ -462,10 +394,8 @@ footer p{
 .flipInY:hover{
     animation: mymove 5s;
 }*/
-.layout{
-}
 .layout:hover{
-    overflow: scroll;
+    /*overflow: visible;*/
 }
 
 /*@keyframes mymove {
