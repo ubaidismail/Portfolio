@@ -398,16 +398,28 @@ footer p{
 }
 
 
+<<<<<<< HEAD
+=======
+}
+
+>>>>>>> abcf1589205054f07b05d8afd8f4f9ab414ed278
 @media only screen and (max-width: 600px){
    .col-sm-10{
     margin-left:15.666666%;
 }
+<<<<<<< HEAD
     .layout img{
         object-fit: cover;
     }
+=======
+>>>>>>> abcf1589205054f07b05d8afd8f4f9ab414ed278
 }
 @media only screen and (max-width: 400px){
 .col-sm-10 {
     margin-left: 9.666666%;
 }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> abcf1589205054f07b05d8afd8f4f9ab414ed278
