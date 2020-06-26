@@ -11,34 +11,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <style>
-  	.loader{
-  		background-color: white;
-  		position: fixed;
-  		z-index: 111;
-  		top:0;
-  		left: 0;
-  		right: 0;
-  		bottom: 0;
-  		display: flex;
-  		justify-content: center;
-  		vertical-align: center;
-  	}
-  	.loader img{
-  		/*width: 50%;*/
-  		height: auto;
-  	}
-  	@media only screen and (max-width: 600px){
-  		.loader img{
-  			margin-top: 23%;
-  		}
-  	}
-  </style>
-  <body onload="mine()">
- 
-  <div class="loader" id="demo">
-  	<img src="img/loader.gif" alt="">
-  </div>
+  <body>
 	<header>
 		<div class="fixed-top" id="home">
 	<div class="row mx-background-top-linear ">
@@ -390,14 +363,5 @@
       $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
-
-
-</script>
-	<script>
-		var a = document.getElementById('demo');
-		function mine(){
-			a.style.display = 'none';
-		}
-	</script>
   </body>
 </html>
